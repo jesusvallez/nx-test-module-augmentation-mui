@@ -60,7 +60,7 @@
     "tslib": "2.6.1",
     "typescript": "5.1.6",
     "vite": "~4.3.9",
-    "vite-plugin-dts": "~2.3.0",
+    "vite-plugin-dts": "2.3.0",
     "vitest": "~0.32.0"
   }
 }

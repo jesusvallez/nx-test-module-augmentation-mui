@@ -12,7 +12,8 @@ export default defineConfig({
     dts({
       entryRoot: 'src',
       tsConfigFilePath: path.join(__dirname, 'tsconfig.lib.json'),
-      skipDiagnostics: true,
+      skipDiagnostics: false,
+      copyDtsFiles: true,
     }),
     react(),
     nxViteTsPaths(),
