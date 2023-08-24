@@ -25,6 +25,7 @@
     "**/*.jsx",
     "../../apps/next-app-mui/.next/types/**/*.ts",
     "../../dist/apps/next-app-mui/.next/types/**/*.ts",
+    "../../libs/mui-theme/**/*.d.ts",
     "next-env.d.ts"
   ],
   "exclude": ["node_modules", "jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"]

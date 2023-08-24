@@ -8,7 +8,6 @@
     "types": ["vite/client"]
   },
   "files": [],
-  "include": ["./src/lib/index.d.ts"],
   "references": [
     {
       "path": "./tsconfig.lib.json"

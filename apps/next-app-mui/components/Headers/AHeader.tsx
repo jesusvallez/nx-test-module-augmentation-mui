@@ -10,8 +10,7 @@ export default function AHeader() {
       elevation={3}
       minSize={[40, 40]}
       size={['100%', '100%']}
-      sx={{ backgroundColor: 'neutral.dark' }}
-      // sx={{ backgroundColor: (theme) => theme.palette.neutral.dark }}
+      sx={{ backgroundColor: (theme) => theme.palette.neutral.dark }}
     >
       <Typography component="p" color="neutral.contrastText" justifyContent="center" textAlign="center" flex={1}>
         <strong>Lorem ipsum dolor sit amet consectetur.</strong>
