@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-monorepo/mui-theme": ["libs/mui-theme/src/index.ts"]
+      "@nx-monorepo/mui-theme": ["libs/mui-theme/src/index.ts"],
+      "@nx-monorepo/next-components": ["libs/next-components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

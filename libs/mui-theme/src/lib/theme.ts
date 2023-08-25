@@ -1,6 +1,6 @@
 import { esES } from '@mui/material/locale'
 
-import { ThemeOptions, createTheme } from '@mui/material/styles'
+import { SxProps, ThemeOptions, createTheme } from '@mui/material/styles'
 import breakpoints from './config/breakpoints'
 import zIndex from './config/zIndex'
 import spacing from './config/spacing'
@@ -23,3 +23,4 @@ const themeMUI5: ThemeOptions = {
 
 export const theme = createTheme(themeMUI5, esES)
 export type ThemeOverride = typeof theme
+export type SxStyles = { [key: string]: SxProps<ThemeOverride> }

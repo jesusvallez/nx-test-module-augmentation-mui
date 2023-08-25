@@ -1,6 +1,6 @@
 import { Container, Typography } from '@mui/material'
 
-export default function Hero() {
+export default function Main() {
   return (
     <Container maxWidth="xl">
       <Typography gutterBottom>

@@ -2,6 +2,16 @@
 
 import { Typography } from '@mui/material'
 import HeaderWrapper from './HeaderWrapper'
+import { SxStyles } from '@nx-monorepo/mui-theme'
+
+const classes: SxStyles = {
+  typography: {
+    justifyContent: 'center',
+    textAlign: 'center',
+    flex: 1,
+    color: (theme) => theme.palette.neutral.contrastText,
+  },
+}
 
 export default function AHeader() {
   return (
@@ -12,7 +22,7 @@ export default function AHeader() {
       size={['100%', '100%']}
       sx={{ backgroundColor: (theme) => theme.palette.neutral.dark }}
     >
-      <Typography component="p" color="neutral.contrastText" justifyContent="center" textAlign="center" flex={1}>
+      <Typography component="p" sx={classes.typography}>
         <strong>Lorem ipsum dolor sit amet consectetur.</strong>
         {'  '} Lorem ipsum dolor sit.
         <span role="img" aria-label="ojos">

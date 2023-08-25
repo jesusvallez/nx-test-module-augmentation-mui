@@ -1,9 +1,8 @@
 import { ReactNode } from 'react'
 import { Box } from '@mui/material'
 
+import { AHeader, BHeader } from '@nx-monorepo/next-components'
 import ThemeRegistry from '../components/ThemeRegistry/ThemeRegistry'
-
-import { AHeader, BHeader } from '../components/Headers'
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

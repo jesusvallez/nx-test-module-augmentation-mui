@@ -1,5 +1,11 @@
-import Main from '../components/Main'
+import { Main } from '@nx-monorepo/next-components'
+import Title from '../components/Title'
 
 export default function HomePage() {
-  return <Main />
+  return (
+    <>
+      <Title>Next Main Page</Title>
+      <Main />
+    </>
+  )
 }
